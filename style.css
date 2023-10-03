@@ -1,0 +1,51 @@
+#logo{
+    margin-left: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding-inline: 20px;
+    margin-right: 20px;
+}
+
+.hero-section{
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container-div {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+  }
+  
+  
+  
